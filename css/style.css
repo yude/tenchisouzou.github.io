@@ -1,0 +1,28 @@
+/*フォント*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight:700;
+    text-align: center;
+}
+
+/*URL*/
+.URL
+{
+  text-decoration: none;
+  color: black;
+}
+.link
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*フッター*/
+footer{
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+}

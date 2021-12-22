@@ -8,7 +8,7 @@ https://moonnote.hateblo.jp/entry/2015/12/03/200718
     overflow: hidden;
     padding: 0;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .SNS-icon li {
@@ -24,12 +24,12 @@ https://moonnote.hateblo.jp/entry/2015/12/03/200718
     display: inline-block;
     font-family: FontAwesome;
     font-size: 16px;
-    height: 80px; /* Button height */
-    line-height: 80px; /* Button height */
+    height: 40px; /* Button height */
+    line-height: 40px; /* Button height */
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     text-align: center;
-    width: 80px; /* Button width */
+    width: 40px; /* Button width */
 }
 
 .SNS-icon li a:hover::before {
@@ -42,9 +42,4 @@ https://moonnote.hateblo.jp/entry/2015/12/03/200718
 .SNS-icon li a[href*="twitter.com"]::before        { background-color: #55acee; content: "\f099"; }
 .SNS-icon li a[href*="wordpress.org"]::before      { background-color: #21759b; content: "\f19a"; }
 .SNS-icon li a[href*="youtube.com"]::before        { background-color: #cd201f; content: "\f16a"; }
-
-
-  
-
-.SNS-icon li a[href$="/feed"]::before              { background-color: #ffa500; content: "\f09e"; }
 .SNS-icon li a[href$="/subscribe"]::before         { background-color: #363636; content: "\f000";  font-family: blogicon; }
