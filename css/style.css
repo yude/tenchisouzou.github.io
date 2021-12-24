@@ -1,15 +1,10 @@
-/*header*/
-header{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight:700;
-    text-align: center;
-    margin: 0px 30px 0px;
-}
-
 /*フォント*/
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 body{
-    font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 100px 0 0 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  
 }
 h1{
     font-family: 'Noto Sans JP', sans-serif;
