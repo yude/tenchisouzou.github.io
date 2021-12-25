@@ -29,3 +29,10 @@ footer{
     position: absolute;/*←絶対位置*/
     bottom: 0; /*下に固定*/
 }
+
+/*背景画像*/
+.backimg{
+  background-size: cover;
+  width: 100%;
+  object-fit: cover;
+}
