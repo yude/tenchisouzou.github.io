@@ -1,38 +1,104 @@
 /*フォント*/
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-body{
-  margin: 0;
-  padding: 100px 0 0 0;
-  font-family: 'Noto Sans JP', sans-serif;
-  
-}
-h1{
+
+body {
+    margin: 0;
+    padding: 100px 0 0 0;
     font-family: 'Noto Sans JP', sans-serif;
-    font-weight:700;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
     text-align: center;
 }
 
-/*URL*/
-.URL
-{
-  text-decoration: none;
-  color: black;
-}
-.link
-{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
 }
 
-/*フッター*/
-footer{
-    position: absolute;/*←絶対位置*/
-    bottom: 0; /*下に固定*/
+@media screen and (max-width:900px) {
+    /*本文*/
+    .content {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .main-text {
+        color: #696969;
+        margin-left: 12px;
+    }
+
+    /*活動内容*/
+    .main-activity{
+        display: column;
+    }
+
+    /*URL*/
+    .URL {
+        text-decoration: none;
+        color: black;
+    }
+    .link {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /*フッター*/
+    footer {
+        position: absolute; /*←絶対位置*/
+        bottom: 0; /*下に固定*/
+    }
+
+    /*YouTube非表示*/
+    .yt-contents{
+        display: none;
+    }
 }
 
-/*背景画像*/
-.backimg{
-  background-size: cover;
-  width: 100%;
-  object-fit: cover;
+@media screen and (min-width:901px) {
+    /*本文*/
+    .content {
+        display: block;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    .main-text {
+        color: #696969;
+        margin-left: 12px;
+    }
+
+    /*Flexbox*/
+    .flexbox-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    .flexbox-item {
+        width: 45%;
+        margin: 10px;
+    }
+
+    /*URL*/
+    .URL {
+        text-decoration: none;
+        color: black;
+    }
+    .link {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /*フッター*/
+    footer {
+        position: absolute;
+        /*←絶対位置*/
+        bottom: 0;
+        /*下に固定*/
+    }
+
+    /*YouTube 角丸*/
+    .yt-contents{
+        border-radius: 10px;
+    }
 }
