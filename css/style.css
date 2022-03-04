@@ -16,14 +16,15 @@ h1 {
 h2 {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 700;
+    margin-bottom: 4px;
 }
-
+/***スマホ表示***/
 @media screen and (max-width:900px) {
     /*本文*/
     .content {
         display: block;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 10px 0px 10px 10px;
+        padding-bottom: 20px;
     }
     .main-text {
         color: #696969;
@@ -56,17 +57,18 @@ h2 {
         display: none;
     }
 }
-
+/***PC表示***/
 @media screen and (min-width:901px) {
     /*本文*/
     .content {
         display: block;
         margin-left: 90px;
         margin-right: 90px;
+        padding-bottom: 20px;
     }
     .main-text {
         color: #696969;
-        margin-left: 12px;
+        margin: 0px 12px 0px 12px;
     }
 
     /*Flexbox*/
