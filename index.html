@@ -1,73 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
 <head>
     <meta charset="uff-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>天地創造部のホームページ</title>
+    <title>天地創造部</title>
+    <!--favicon-->
     <link rel="icon" href="img/icon.jpg">
+    <!--SEO-->
     <meta description="広島市立大学公認サークル 天地創造部のホームページです" name="description">
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <!--JQuery-->
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet"> 
+    <!--JS-->
+    <script>
+        $(function () {
+          $("#header").load("header.html");
+        });
+    </script>
 </head>
 
 <body>
-    <header>
-        <h1 class="logo">
-            <a href="/" class="URL title">天地創造部</a>
-        </h1>
-        <!--
-            <nav>
-                <ul class="header-menu">
-                    <li><a href="/about.html" class="URL">天地創造部 とは</a></li>
-                    <li><a href="#" class="URL">活動内容</a></li>
-                    <li><a href="https://www.youtube.com/embed/xgGCWqVi0k0" class="URL" target="_blank">天地ラジオ</a></li>
-                    <li><a href="/contact.html" class="URL">連絡先</a></li>
-                </ul>
-            </nav>-->
-    </header>
+    <div id="header"></div>
 
-    <div class="content">
-        <h2>天地創造部とは</h2>
-        <p class="main-text">天地創造部は
-            <a href="https://www.hiroshima-cu.ac.jp/" class="main-text">広島市立大学</a>
-            の公認サークルです。
-        </p>
+    <p class="index-logo">天地創造部は、「やってみたい」　を実現する部活です</p>
+    <p class="index-logo-sp">天地創造部は、<br>「やってみたい」<br>を実現する部活です</p>
 
-        <h2>活動内容</h2>
-        <div class="main-activity">
-            <a href="https://twitter.com/tenchisouzou_13/status/1337256002249314311" class="main-text">・ピザ食ってピザになる会</a>
-            <a href="https://twitter.com/tenchisouzou_13/status/1335570162427150336" class="main-text">・ドラム缶風呂</a>
-            <a href="https://twitter.com/tenchisouzou_13/status/1538812456143056897" class="main-text">・部室改造</a>
-        </div>
-
-        <h2>SNS</h2>
-        <div class="flexbox-box">
-            <div class="flexbox-item">
-                <p class="main-text">公式Instagram：
-                    <a href="https://www.instagram.com/tenchi.souzou/" class="main-text">@tenchi.souzou</a>
-                </p>
-            </div>
-            <div class="flexbox-item">
-                <p class="main-text">公式Twitter：
-                    <a href="https://twitter.com/tenchisouzou_13" class="main-text">@tenchisouzou_13</a>
-                </p>
-                <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">天地創造部2021年度部活動紹介動画になります！今年はあの有名なアニメのopのパロ動画を制作しました。願わくば皆さんの描く薔薇色のキャンパスライフに我が天地創造部が力を添えることが出来ますように…そんな思いで制作しました！ぜひご覧下さい🦕🌸 <a href="https://t.co/1xb0QZr3vO">pic.twitter.com/1xb0QZr3vO</a></p>&mdash; 天地創造部 (@tenchisouzou_13) <a href="https://twitter.com/tenchisouzou_13/status/1379778169415237636?ref_src=twsrc%5Etfw">April 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            <div class="flexbox-item">
-                <p class="main-text">Youtube：
-                    <a href="https://www.youtube.com/channel/UCasf8G8rjMop6_Q_LX_voWw" class="main-text">こちら</a>
-                </p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/A6h1elYd-MQ" class="yt-contents" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
+    <div class="index-intro">
+        <h2>天地について</h2>
+        <p>部員数：45名(2022年12月現在)</p>
+        <p>活動日：不定期（部会は対面月1、オンライン月2）</p>
+        <p>活動場所：基本大学</p>
+        <p>他大学の部員：あり</p>
     </div>
     
-    <footer>
-        <a class="footer-text">広島市立大学 天地創造部</a>
-    </footer>
-</body>
 
+</body>
 </html>

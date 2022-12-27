@@ -1,51 +1,59 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="uff-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>天地創造部</title>
-        <link rel="icon" href="img/icon.jpg">
-        <meta description="広島市立大学 天地創造部のホームページです" name="description">
-        <!--CSS-->
-        <link rel = "stylesheet" href = "css/style.css">
-        <link rel = "stylesheet" href = "css/header.css">
-        <link rel = "stylesheet" href = "css/footer.css">
-        <link rel = "stylesheet" href = "css/contact-button.css">
-    </head>
+<html lang="ja">
 
-    <body>
-        <header>
-            <h1 class="logo">
-                <a href="/" class="URL title">天地創造部</a>
-            </h1>
-            <nav>
-                <ul class="header-menu">
-                    <li><a href="/about.html" class="URL">天地創造部 とは</a></li>
-                    <li><a href="#" class="URL">活動内容</a></li>
-                    <li><a href="https://www.youtube.com/embed/xgGCWqVi0k0" class="URL" target="_blank">天地ラジオ</a></li>
-                    <li><a href="/contact.html" class="URL">連絡先</a></li>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <meta charset="uff-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>天地創造部 | contact</title>
+    <!--favicon-->
+    <link rel="icon" href="img/icon.jpg">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <!--JQuery-->
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet"> 
+    <!--JS-->
+    <script>
+        $(function () {
+          $("#header").load("header.html");
+        });
+    </script>
+</head>
 
-        <p>製作者がやる気をなくしいたので中途半端</p>
+<body>
+    <div id="header"></div>
 
-        <p>
-            広島市立大学 天地創造部
-        </p>
-        <a href="twitter.com/tenchisouzou_13" class="URL">Twitter</a>
-
-        <!--<div>
-            <a class="button">a</a>
-            <a class="button">b</a>
-            <a class="button">b</a>
-            <a class="button">b</a>
-            <a class="button">b</a>
-        </div>-->
-
-        <footer>
-            <a class="footer-text">広島市立大学 天地創造部</a>
-        </footer>
-    </body>
+    <div class="contact-box">
+        <h3>SNS</h3>
+        <div class="contact-list">
+            <p class="contact-tw">
+                Twitter :
+                <a href="https://twitter.com/tenchisouzou_13" class="URL" target="_blank">@tenchisouzou_13</a>
+            </p>
+            <p class="contact-ig">
+                <i class="fab fa-instagram"></i>
+                Instagram :
+                <a href="https://www.instagram.com/tenchi.souzou/" class="URL" target="_blank">@tenchi.souzou</a>
+            </p>
+            <p class="contact-yt">
+                YouTube :
+                <a href="https://youtube.com/tenchisouzou" class="URL" target="_blank">@tenchisouzou</a>
+            </p>
+        </div>
+        
+        <h3>contact</h3>
+        <div class="contact-list">
+            <p>活動内容について、入部についてなどは、各種SNSのDMまで！</p>
+            <p>広島市立大学 学生会館 部室9</p>
+            <p>〒731-3194 広島県広島市安佐南区大塚東３丁目４−１</p>
+        </div>
+        
+        <h3></h3>
+    </div>
+    
+</body>
 </html>
