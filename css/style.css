@@ -71,6 +71,21 @@ h1 {
         display: column;
     }
 
+    /* index */
+    .index-logo {
+        font-size: 0px;
+    }
+    .index-logo-sp {
+        font-size: clamp(32px,3vw,50px);
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'DotGothic16', sans-serif;
+    }
+    .index-intro{
+        margin-left: 15px;
+    }
+
     /* contact */
     .contact-box {
         margin-left: 20px;
@@ -120,6 +135,21 @@ h1 {
     .flexbox-item {
         width: 45%;
         margin: 10px;
+    }
+
+    /* index */
+    .index-logo {
+        font-size: clamp(32px,3vw,50px);
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'DotGothic16', sans-serif;
+    }
+    .index-logo-sp {
+        font-size: 0px;
+    }
+    .index-intro{
+        margin-left: 30px;
     }
 
     /* contact */
