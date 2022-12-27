@@ -82,6 +82,9 @@ h1 {
         margin-bottom: 50px;
         font-family: 'DotGothic16', sans-serif;
     }
+    .index-logo-box{
+        height: 100vh;
+    }
     .index-intro{
         margin-left: 15px;
     }
