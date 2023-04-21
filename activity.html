@@ -21,6 +21,36 @@
         $(function () {
           $("#header").load("header.html");
         });
+
+        const scroll23 = function () {
+            const Left23 = document.getElementById("23").getBoundingClientRect().left;
+            const Top23 = document.getElementById("23").getBoundingClientRect().top;
+            window.scrollTo({
+                left: Left23,
+                top: Top23,
+                behavior: 'smooth'
+            });
+        };
+
+        const scroll22 = function () {
+            const Left22 = document.getElementById("22").getBoundingClientRect().left;
+            const Top22 = document.getElementById("22").getBoundingClientRect().top;
+            window.scrollTo({
+                left: Left22,
+                top: Top22,
+                behavior: 'smooth'
+            });
+        };
+
+        const scroll21 = function () {
+            const Left21 = document.getElementById("21").getBoundingClientRect().left;
+            const Top21 = document.getElementById("21").getBoundingClientRect().top;
+            window.scrollTo({
+                left: Left21,
+                top: Top21,
+                behavior: 'smooth'
+            });
+        };
     </script>
 </head>
 
@@ -29,10 +59,13 @@
 
     
     <div class="activity-box">
-        <p>活動内容を記載　見やすくする方法を思案中</p>
-        <p>写真は気が向いたら追加</p>
+        <div id="jump-button">
+        <p onclick="scroll23()">2023年</p>
+        <p onclick="scroll22()">2022年</p>
+        <p onclick="scroll21()">2021年</p>
+        </div>
         <div class="activity-block">
-            <h2>2023年</h2>
+            <h2 id="23">2023年</h2>
 
             <li class="activity-title">3/2(木) ドラム缶風呂</li>
             <p class="activity-text">温泉地から温泉水を汲んできて、大学内でドラム缶風呂に入浴しました。焚き火で食べ物を焼く人もいました。</p>
@@ -53,7 +86,7 @@
                 <img class="activity-img" src="img/230106-4.jpg">
                 <img class="activity-img" src="img/230106-5.jpg">
             </div>
-            <h2>2022年</h2>
+            <h2 id="22">2022年</h2>
             <li class="activity-title">11/12(土) 天地運動会</li>
             <p class="activity-text">夏から延期になっていた運動会をしました。バスケやバレーを楽しみました</p>
             <div class="activity-img-block">
@@ -78,7 +111,7 @@
                 <img class="activity-img" src="img/220611-3.jpg">
             </div>
 
-            <h2>2021年</h2>
+            <h2 id="21">2021年</h2>
             <li class="activity-title">10/31(日) 市大祭</li>
             <p class="activity-text">お悩み相談室を開きました</p>
         </div>
