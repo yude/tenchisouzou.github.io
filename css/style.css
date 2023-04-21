@@ -28,6 +28,19 @@ h1 {
 }
 
 /* activity */
+#jump-button{
+    text-align: center;
+    display:flex;
+  }
+#jump-button *{
+    margin-right: auto;
+    margin-left: auto;
+}
+#jump-button p{
+    border: 1.0px solid #000000;
+    border-radius: 5px;
+}
+
 .activity-title {
     font-weight: bold;
     list-style-type: none;
