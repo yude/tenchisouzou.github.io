@@ -35,12 +35,26 @@ h1 {
 .activity-img-block {
     display: flex;
     overflow-x: scroll;
+    /* 要修正 */
+    /* overflow: visible;　 */
+    width: 100%;
+    height: 100%;
+    padding-top:15px;
 }
 .activity-img {
     margin-left: 20px;
     object-fit: cover;
     border-radius: 20px;
     margin-bottom: 30px;
+    /* 要修正 */
+    display: block;
+    transition-duration: 0.5s;
+
+}
+
+.activity-img:hover {
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
 }
 
 /* URL */
