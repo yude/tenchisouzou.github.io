@@ -31,11 +31,13 @@ h1 {
 /* button*/
 #jump-button{
     text-align: center;
-    display:flex;
   }
 #jump-button *{
     margin-right: auto;
     margin-left: auto;
+}
+.jump-row{
+    display:flex;
 }
 
 
