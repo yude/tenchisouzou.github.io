@@ -157,7 +157,9 @@ header {
     /*ロゴ*/
     .logo {
         width: 50%;
+        margin-left: 45px;
         font-size-adjust: inherit;
+        text-align: left;
     }
 
     /*ナビメニュー*/
@@ -173,6 +175,7 @@ header {
     }
 
     nav {
-        margin: 0 5% 0 auto;
+        margin: 0 0 0 auto;
+        margin-right: 45px;
     }
 }
