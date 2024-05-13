@@ -148,14 +148,18 @@ header {
 
     /*背景部分*/
     header {
-        height: 5%;
-        padding: 15px 30px 15px 30px;
+        height: 6em;
+        /* padding: 15px 30px 15px 30px; */
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
 
     /*ロゴ*/
     .logo {
         width: 50%;
+        margin-left: 45px;
         font-size-adjust: inherit;
+        text-align: left;
     }
 
     /*ナビメニュー*/
@@ -171,6 +175,7 @@ header {
     }
 
     nav {
-        margin: 0 5% 0 auto;
+        margin: 0 0 0 auto;
+        margin-right: 45px;
     }
 }

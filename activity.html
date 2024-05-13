@@ -1,230 +1,264 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-    <meta charset="uff-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>天地創造部 | 活動内容</title>
     <!--favicon-->
-    <link rel="icon" href="img/icon.jpg">
+    <link rel="icon" href="img/icon.png" />
     <!--CSS-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
     <!--JQuery-->
     <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
     <!--fonts-->
-    <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/nikukyu.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
     <!--JS-->
     <script>
-        $(function () {
-          $("#header").load("header.html");
+      $(function () {
+        $("#header").load("header.html");
+      });
+
+      const scroll23 = function () {
+        const Left23 = document
+          .getElementById("23")
+          .getBoundingClientRect().left;
+        const Top23 = document.getElementById("23").getBoundingClientRect().top;
+        window.scrollTo({
+          left: Left23,
+          top: Top23,
+          behavior: "smooth",
         });
+      };
 
-        const scroll23 = function () {
-            const Left23 = document.getElementById("23").getBoundingClientRect().left;
-            const Top23 = document.getElementById("23").getBoundingClientRect().top;
-            window.scrollTo({
-                left: Left23,
-                top: Top23,
-                behavior: 'smooth'
-            });
-        };
+      const scroll22 = function () {
+        const Left22 = document
+          .getElementById("22")
+          .getBoundingClientRect().left;
+        const Top22 = document.getElementById("22").getBoundingClientRect().top;
+        window.scrollTo({
+          left: Left22,
+          top: Top22,
+          behavior: "smooth",
+        });
+      };
 
-        const scroll22 = function () {
-            const Left22 = document.getElementById("22").getBoundingClientRect().left;
-            const Top22 = document.getElementById("22").getBoundingClientRect().top;
-            window.scrollTo({
-                left: Left22,
-                top: Top22,
-                behavior: 'smooth'
-            });
-        };
+      const scroll21 = function () {
+        const Left21 = document
+          .getElementById("21")
+          .getBoundingClientRect().left;
+        const Top21 = document.getElementById("21").getBoundingClientRect().top;
+        window.scrollTo({
+          left: Left21,
+          top: Top21,
+          behavior: "smooth",
+        });
+      };
 
-        const scroll21 = function () {
-            const Left21 = document.getElementById("21").getBoundingClientRect().left;
-            const Top21 = document.getElementById("21").getBoundingClientRect().top;
-            window.scrollTo({
-                left: Left21,
-                top: Top21,
-                behavior: 'smooth'
-            });
-        };
+      const scroll20 = function () {
+        const Left20 = document
+          .getElementById("20")
+          .getBoundingClientRect().left;
+        const Top20 = document.getElementById("20").getBoundingClientRect().top;
+        window.scrollTo({
+          left: Left20,
+          top: Top20,
+          behavior: "smooth",
+        });
+      };
 
-        const scroll20 = function () {
-            const Left20 = document.getElementById("20").getBoundingClientRect().left;
-            const Top20 = document.getElementById("20").getBoundingClientRect().top;
-            window.scrollTo({
-                left: Left20,
-                top: Top20,
-                behavior: 'smooth'
-            });
-        };
+      const scroll19 = function () {
+        const Left19 = document
+          .getElementById("19")
+          .getBoundingClientRect().left;
+        const Top19 = document.getElementById("19").getBoundingClientRect().top;
+        window.scrollTo({
+          left: Left19,
+          top: Top19,
+          behavior: "smooth",
+        });
+      };
 
-        const scroll19 = function () {
-            const Left19 = document.getElementById("19").getBoundingClientRect().left;
-            const Top19 = document.getElementById("19").getBoundingClientRect().top;
-            window.scrollTo({
-                left: Left19,
-                top: Top19,
-                behavior: 'smooth'
-            });
-        };
-
-        const scroll18 = function () {
-            const Left18 = document.getElementById("18").getBoundingClientRect().left;
-            const Top18 = document.getElementById("18").getBoundingClientRect().top;
-            window.scrollTo({
-                left: Left18,
-                top: Top18,
-                behavior: 'smooth'
-            });
-        };
+      const scroll18 = function () {
+        const Left18 = document
+          .getElementById("18")
+          .getBoundingClientRect().left;
+        const Top18 = document.getElementById("18").getBoundingClientRect().top;
+        window.scrollTo({
+          left: Left18,
+          top: Top18,
+          behavior: "smooth",
+        });
+      };
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="header"></div>
 
-    
     <div class="activity-box">
-        <div id="jump-button">
-            <div class="jump-row">
-                <p onclick="scroll23()">2023年</p>
-                <p onclick="scroll22()">2022年</p>
-                <p onclick="scroll21()">2021年</p>
-            </div>
-            <div class="jump-row">
-                <p onclick="scroll20()">2020年</p>
-                <p onclick="scroll19()">2019年</p>
-                <p onclick="scroll18()">2018年</p>
-            </div>
+      <div id="jump-button">
+        <div class="jump-row">
+          <p onclick="scroll23()">2023年</p>
+          <p onclick="scroll22()">2022年</p>
+          <p onclick="scroll21()">2021年</p>
         </div>
-        <div class="activity-block">
-            <h2 id="23">2023年</h2>
+        <div class="jump-row">
+          <p onclick="scroll20()">2020年</p>
+          <p onclick="scroll19()">2019年</p>
+          <p onclick="scroll18()">2018年</p>
+        </div>
+      </div>
+      <div class="activity-block">
+        <h2 id="23">2023年</h2>
 
-            <li class="activity-title">12/18(月)  忘年会</li>
-            <p class="activity-text">忘年会でタコパをしました！その後のビンゴ大会もとても盛り上がりました</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/231218-1.jpg">
-                <img class="activity-img" src="img/231218-2.jpg">                   
-            
-            </div>
+        <li class="activity-title">12/18(月) 忘年会</li>
+        <p class="activity-text">
+          忘年会でタコパをしました！その後のビンゴ大会もとても盛り上がりました
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/231218-1.jpg" />
+          <img class="activity-img" src="img/231218-2.jpg" />
+        </div>
 
-            <li class="activity-title">10/28(土)  大学祭</li>
-            <p class="activity-text">今年の大学祭は4色の恐竜ソーダを提供しました！恐竜がステージに呼ばれるハプニングもありました</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/231028-1.jpg">
-                <img class="activity-img" src="img/231028-2.jpg">
-                <img class="activity-img" src="img/231028-3.jpg">                    
-            
-            </div>
-            <li class="activity-title">9/18(月) ~ 9/19(火)  宮島合宿</li>
-            <p class="activity-text">初の夏合宿で宮島に一泊二日で行ってきました！みんなで作ったカレー美味しかったです。来年もやりたい！</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/230918-1.jpg">
-                <img class="activity-img" src="img/230918-2.jpg">
-                <img class="activity-img" src="img/230918-3.jpg">  
-                <img class="activity-img" src="img/230918-4.jpg">         
-            
-            </div>
+        <li class="activity-title">10/28(土) 大学祭</li>
+        <p class="activity-text">
+          今年の大学祭は4色の恐竜ソーダを提供しました！恐竜がステージに呼ばれるハプニングもありました
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/231028-1.jpg" />
+          <img class="activity-img" src="img/231028-2.jpg" />
+          <img class="activity-img" src="img/231028-3.jpg" />
+        </div>
+        <li class="activity-title">9/18(月) ~ 9/19(火) 宮島合宿</li>
+        <p class="activity-text">
+          初の夏合宿で宮島に一泊二日で行ってきました！みんなで作ったカレー美味しかったです。来年もやりたい！
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/230918-1.jpg" />
+          <img class="activity-img" src="img/230918-2.jpg" />
+          <img class="activity-img" src="img/230918-3.jpg" />
+          <img class="activity-img" src="img/230918-4.jpg" />
+        </div>
 
-            <li class="activity-title">8/8(火)  流しそうめん</li>
-            <p class="activity-text">流しそうめんをしました！一から手作りしました</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/230808-1.jpg">
-                <img class="activity-img" src="img/230808-2.jpg">            
-            
-            </div>
+        <li class="activity-title">8/8(火) 流しそうめん</li>
+        <p class="activity-text">
+          流しそうめんをしました！一から手作りしました
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/230808-1.jpg" />
+          <img class="activity-img" src="img/230808-2.jpg" />
+        </div>
 
-            <li class="activity-title">6/24(日)  市内鬼ごっこ</li>
-            <p class="activity-text">市内全域で広範囲鬼ごっこをしました。普段行かないような場所を巡れて楽しかったです</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/230624-1.jpg">
-                <img class="activity-img" src="img/230624-2.jpg">
-                <img class="activity-img" src="img/230624-3.jpg">
-            
-            </div>
+        <li class="activity-title">6/24(日) 市内鬼ごっこ</li>
+        <p class="activity-text">
+          市内全域で広範囲鬼ごっこをしました。普段行かないような場所を巡れて楽しかったです
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/230624-1.jpg" />
+          <img class="activity-img" src="img/230624-2.jpg" />
+          <img class="activity-img" src="img/230624-3.jpg" />
+        </div>
 
-            <li class="activity-title">5/14(日)  天地運動会</li>
-            <p class="activity-text">運動会をしました。バレーやフットサル、気配斬りなどを行いました。チーム対抗でとても盛り上がりました。</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/230514-1.jpg">
-                <img class="activity-img" src="img/230514-2.jpg">
-                <img class="activity-img" src="img/230514-3.jpg">
-                <img class="activity-img" src="img/230514-4.jpg">
-                <img class="activity-img" src="img/230514-5.jpg">
-            
-            </div>
+        <li class="activity-title">5/14(日) 天地運動会</li>
+        <p class="activity-text">
+          運動会をしました。バレーやフットサル、気配斬りなどを行いました。チーム対抗でとても盛り上がりました。
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/230514-1.jpg" />
+          <img class="activity-img" src="img/230514-2.jpg" />
+          <img class="activity-img" src="img/230514-3.jpg" />
+          <img class="activity-img" src="img/230514-4.jpg" />
+          <img class="activity-img" src="img/230514-5.jpg" />
+        </div>
 
-            <li class="activity-title">5/3(水)  新入生歓迎会</li>
-            <p class="activity-text">屋外で新歓をしました。自己紹介やゲームをして、初めて話す人とも仲良くなれました</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/230503-1.jpg">
-                <img class="activity-img" src="img/230503-2.jpg">
-                <img class="activity-img" src="img/230503-3.jpg">
-                <img class="activity-img" src="img/230503-4.jpg">
-                
-            
-            </div>
+        <li class="activity-title">5/3(水) 新入生歓迎会</li>
+        <p class="activity-text">
+          屋外で新歓をしました。自己紹介やゲームをして、初めて話す人とも仲良くなれました
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/230503-1.jpg" />
+          <img class="activity-img" src="img/230503-2.jpg" />
+          <img class="activity-img" src="img/230503-3.jpg" />
+          <img class="activity-img" src="img/230503-4.jpg" />
+        </div>
 
-            <li class="activity-title">4/17(月)  紙飛行機</li>
-            <p class="activity-text">大学で紙飛行機大会をしました。電動飛行機やプロペラなど個性的な飛行機を作る人もいました。</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/230417-1.jpg">
-                <img class="activity-img" src="img/230417-2.jpg">
-                <img class="activity-img" src="img/230417-3.jpg">
-                <img class="activity-img" src="img/230417-4.jpg">
-            
-            </div>
+        <li class="activity-title">4/17(月) 紙飛行機</li>
+        <p class="activity-text">
+          大学で紙飛行機大会をしました。電動飛行機やプロペラなど個性的な飛行機を作る人もいました。
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/230417-1.jpg" />
+          <img class="activity-img" src="img/230417-2.jpg" />
+          <img class="activity-img" src="img/230417-3.jpg" />
+          <img class="activity-img" src="img/230417-4.jpg" />
+        </div>
 
-            <li class="activity-title">3/2(木) ドラム缶風呂</li>
-            <p class="activity-text">温泉地から温泉水を汲んできて、大学内でドラム缶風呂に入浴しました。焚き火で食べ物を焼いて食べました。</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/230302-1.jpg">
-                <img class="activity-img" src="img/230302-2.jpg">
-                <img class="activity-img" src="img/230302-3.jpg">
-                <img class="activity-img" src="img/230302-4.jpg">
-                <img class="activity-img" src="img/230302-5.jpg">
-            </div>
+        <li class="activity-title">3/2(木) ドラム缶風呂</li>
+        <p class="activity-text">
+          温泉地から温泉水を汲んできて、大学内でドラム缶風呂に入浴しました。焚き火で食べ物を焼いて食べました。
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/230302-1.jpg" />
+          <img class="activity-img" src="img/230302-2.jpg" />
+          <img class="activity-img" src="img/230302-3.jpg" />
+          <img class="activity-img" src="img/230302-4.jpg" />
+          <img class="activity-img" src="img/230302-5.jpg" />
+        </div>
 
-            <li class="activity-title">1/6(金) お餅つき</li>
-            <p class="activity-text">お餅つきをしました。予想以上につくのが難しかったです</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/230106-1.jpg">
-                <img class="activity-img" src="img/230106-2.jpg">
-                <img class="activity-img" src="img/230106-3.jpg">
-                <img class="activity-img" src="img/230106-4.jpg">
-                <img class="activity-img" src="img/230106-5.jpg">
-            </div>
-            <h2 id="22">2022年</h2>
-            <li class="activity-title">11/12(土) 天地運動会</li>
-            <p class="activity-text">夏から延期になっていた運動会をしました。バスケやバレーを楽しみました</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/221112-1.jpg">
-                <img class="activity-img" src="img/221112-2.jpg">
-                <img class="activity-img" src="img/221112-3.jpg">
-                <img class="activity-img" src="img/221112-4.jpg">
-            </div>
-            
-            <li class="activity-title">10/29(土), 30(日) 市大祭</li>
-            <p class="activity-text">天地カフェでクリームソーダやパンケーキなどを提供しました</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/221029-1.jpg">
-                <img class="activity-img" src="img/221029-2.jpg">
-            </div>
-            
-            <li class="activity-title">6/11(土)〜 部室改造</li>
-            <p class="activity-text">部室に畳エリアを作りました</p>
-            <div class="activity-img-block">
-                <img class="activity-img" src="img/220611-1.jpg">
-                <img class="activity-img" src="img/220611-2.jpg">
-                <img class="activity-img" src="img/220611-3.jpg">
-            </div>
+        <li class="activity-title">1/6(金) お餅つき</li>
+        <p class="activity-text">
+          お餅つきをしました。予想以上につくのが難しかったです
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/230106-1.jpg" />
+          <img class="activity-img" src="img/230106-2.jpg" />
+          <img class="activity-img" src="img/230106-3.jpg" />
+          <img class="activity-img" src="img/230106-4.jpg" />
+          <img class="activity-img" src="img/230106-5.jpg" />
+        </div>
+        <h2 id="22">2022年</h2>
+        <li class="activity-title">11/12(土) 天地運動会</li>
+        <p class="activity-text">
+          夏から延期になっていた運動会をしました。バスケやバレーを楽しみました
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/221112-1.jpg" />
+          <img class="activity-img" src="img/221112-2.jpg" />
+          <img class="activity-img" src="img/221112-3.jpg" />
+          <img class="activity-img" src="img/221112-4.jpg" />
+        </div>
 
-            <h2 id="21">2021年</h2>
-            <!-- <li class="activity-title">10/31(日) 市大祭</li>
+        <li class="activity-title">10/29(土), 30(日) 市大祭</li>
+        <p class="activity-text">
+          天地カフェでクリームソーダやパンケーキなどを提供しました
+        </p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/221029-1.jpg" />
+          <img class="activity-img" src="img/221029-2.jpg" />
+        </div>
+
+        <li class="activity-title">6/11(土)〜 部室改造</li>
+        <p class="activity-text">部室に畳エリアを作りました</p>
+        <div class="activity-img-block">
+          <img class="activity-img" src="img/220611-1.jpg" />
+          <img class="activity-img" src="img/220611-2.jpg" />
+          <img class="activity-img" src="img/220611-3.jpg" />
+        </div>
+
+        <h2 id="21">2021年</h2>
+        <!-- <li class="activity-title">10/31(日) 市大祭</li>
             <p class="activity-text">お悩み相談室を開きました</p>
             <div class="activity-img-block">
                 <img class="activity-img" src="img/230624-1.jpg">
@@ -272,9 +306,9 @@
                 <img class="activity-img" src="img/230624-3.jpg">
             </div> -->
 
-            <h2 id="20">2020年</h2>
+        <h2 id="20">2020年</h2>
 
-            <!-- <li class="activity-title">12/11(金) コストコのピザをたっぷり食べてピザになる会</li>
+        <!-- <li class="activity-title">12/11(金) コストコのピザをたっぷり食べてピザになる会</li>
             <p class="activity-text">ああああああああ。</p>
             <div class="activity-img-block">
                 <img class="activity-img" src="img/230624-1.jpg">
@@ -354,9 +388,9 @@
                 <img class="activity-img" src="img/230624-3.jpg">
             </div> -->
 
-            <h2 id="19">2019年</h2>
+        <h2 id="19">2019年</h2>
 
-            <!-- <li class="activity-title">10/26(土),27(日) 大学祭</li>
+        <!-- <li class="activity-title">10/26(土),27(日) 大学祭</li>
             <p class="activity-text">あああああああ。</p>
             <div class="activity-img-block">
                 <img class="activity-img" src="img/230624-1.jpg">
@@ -412,7 +446,7 @@
                 <img class="activity-img" src="img/230624-2.jpg">
                 <img class="activity-img" src="img/230624-3.jpg">
             </div> -->
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
